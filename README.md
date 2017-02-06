@@ -2,7 +2,7 @@
 ***
 - This utility could be useful for teams where lot of projects need to be created on a regular basis. It provides a way to commit the initial required structure for a project and also manage access to the repository.
 
-- It currently works with bitbucket using its API.
+- It currently works with Bitbucket using Bitbucket REST API.
 
 - Access like read, write and admin can be given to selective groups.
 
@@ -26,9 +26,7 @@
 
 - Input the values asked by the prompt.
 
-- On local machine the repo will be created in `/tmp` directory by the name provided. Make sure there is no directory there by the same 'name'.
-
-- This tool also creates, by the 'name' passed in manifest, a {name}.json file in amazon s3 bucket.
+- On local machine the repo will be created in `/tmp` directory by the name provided. If there is a directory with the same 'name', it will be removed.
 
 ##### Todos :
 - Make the organization name, under which project gets registered, to work from config.
