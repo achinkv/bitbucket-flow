@@ -1,0 +1,10 @@
+
+module.exports = {
+	"projectKey":"MYPROJ",
+	"name": "myproj-test",
+	"readGroup":"myorg-developers",
+	"writeGroup":"myorg-maintainer",
+	"adminGroup":"myorg-administrators",
+	"bitbucketEmail":"",
+	"bitbucketUsername":""
+}
